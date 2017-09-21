@@ -58,7 +58,7 @@ function getWeatherIcon(id){
   append a damn image...
   2.reason 1 is all i got
   **/
-    imageElement.setAttribute('src','./assets/weather-icons/all/_'+id+'.svg');
+    imageElement.setAttribute('src','./assets/weather-icons/all/_10d.svg');
     imageElement.setAttribute('id','weather-icon');
     iconDivElement.appendChild(imageElement);
 }
